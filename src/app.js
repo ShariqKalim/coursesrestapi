@@ -4,7 +4,7 @@ require("./db/conn");
 
 const courses = require("./models/courses");
 const mongoose = require("mongoose");
-const router = require("./routers/course");
+const router = require("./routers/course ");
 
 const app = express();
 const port = process.env.PORT || 3000;
